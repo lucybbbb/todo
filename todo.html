@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css" />
+<script src ='todo.js'></script>
+</head>
+<body>
+    <h1 style="margin-top: 50px;">TODOS</h1>
+    <img src="photos/image3.jpg" style = "width:700px" class ="center">
+</body>
+
+  <div class="container">
+      <form id="form_id" method="post" name="myform"></form>
+     
+     <label><b>Username:</b></label>
+     <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password:</b></label>
+    <input type="password" id="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="button" id="submit" value="Login" onclick="validate()">
+      <a href = 'list.html'>Login</a</button>
+    <label>
+    <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+ </div>
+ 
+</form>
+  <div class="container" >
+    <button type="button" class="cancelbtn">Cancel</button>
+    <button type="button" class ="cancelbtn"><a href="register.html">Register</a></button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+
+
+
+  
+
+</body>
+</html>
